@@ -2,6 +2,8 @@
 
 Animated cross-fade container for [go_router](https://pub.dev/packages/go_router) [`StatefulShellRoute`](https://pub.dev/documentation/go_router/latest/go_router/StatefulShellRoute-class.html) branch navigators.
 
+**Repository:** [github.com/exeshka/go_router_animated_branch](https://github.com/exeshka/go_router_animated_branch)
+
 When switching bottom-navigation tabs, the default `navigatorContainerBuilder` uses an [`IndexedStack`](https://api.flutter.dev/flutter/widgets/IndexedStack-class.html) with no transition. This package provides [`AnimatedBranchContainer`](lib/src/animated_branch_container.dart), which:
 
 - cross-fades between branches with an ease-in-out cubic curve (280 ms by default);
@@ -15,7 +17,7 @@ Add to `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  go_router_animated_branch: ^0.1.0
+  go_router_animated_branch: ^0.1.2
   go_router: ^14.0.0
 ```
 
