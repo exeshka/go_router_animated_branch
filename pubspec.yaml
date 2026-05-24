@@ -1,0 +1,29 @@
+name: go_router_animated_branch
+description: >-
+  Animated cross-fade container for go_router StatefulShellRoute branch
+  navigators. Keeps every branch mounted to preserve GlobalKey state.
+version: 0.1.0
+homepage: https://github.com/exeshka/go_router_animated_branch
+repository: https://github.com/exeshka/go_router_animated_branch
+issue_tracker: https://github.com/exeshka/go_router_animated_branch/issues
+
+topics:
+  - navigation
+  - routing
+  - go-router
+  - animation
+
+environment:
+  sdk: ^3.11.5
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
